@@ -1,8 +1,9 @@
+import Button from "./Button";
 import "./ImcCalc.css";
 
 const ImcCalc = () => {
   return (
-    <div className="calc-container">
+    <div id="calc-container">
         <h2>IMC Calculator</h2>
         <form id="imc-form">
             <div className="form-inputs">
@@ -16,8 +17,8 @@ const ImcCalc = () => {
                 </div>
             </div>
             <div className="action-control">
-                <button>Calculate</button>
-                <button>Clean</button>
+                <Button id="calc-btn" text="Calculate" />
+                <Button id="clear-btn" text="Clear" />
             </div>
         </form>
     </div>
