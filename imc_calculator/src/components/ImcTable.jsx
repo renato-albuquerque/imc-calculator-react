@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import "./ImcTable.css";
 
 const ImcTable = ({ data }) => {
   return (
